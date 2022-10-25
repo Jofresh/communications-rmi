@@ -2,9 +2,9 @@ import java.rmi.RemoteException;
 
 public class Main {
     public static void main(String[] args) {
-        OD1Impl od1 = null;
-        OD2Impl od2 = null;
-        OD3Impl od3 = null;
+        OD1I od1 = null;
+        OD2I od2 = null;
+        OD3I od3 = null;
 
         try {
             od1 = new OD1Impl();

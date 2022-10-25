@@ -1,11 +1,11 @@
 import java.rmi.RemoteException;
 
 public class P2 extends Thread {
-    private OD1Impl od1;
-    private OD2Impl od2;
-    private OD3Impl od3;
+    private OD1I od1;
+    private OD2I od2;
+    private OD3I od3;
 
-    public P2(OD1Impl od1, OD2Impl od2, OD3Impl od3) {
+    public P2(OD1I od1, OD2I od2, OD3I od3) {
         this.od1 = od1;
         this.od2 = od2;
         this.od3 = od3;
