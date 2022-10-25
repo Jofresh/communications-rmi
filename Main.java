@@ -2,6 +2,7 @@ import java.rmi.RemoteException;
 
 public class Main {
     public static void main(String[] args) {
+        // pas le but, regarder PartenaireP1/P2/P3
         OD1I od1 = null;
         OD2I od2 = null;
         OD3I od3 = null;
